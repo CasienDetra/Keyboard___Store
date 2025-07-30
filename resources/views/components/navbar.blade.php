@@ -17,7 +17,7 @@
                     @endif
                 </div>
             </div>
-            <div class="hidden sm:ml-6 sm:flex sm:items-center gap-4">
+            {{-- <div class="hidden sm:ml-6 sm:flex sm:items-center gap-4">
                 @php
                     $cart = session()->get('cart', []);
                     $cartCount = array_sum($cart);
@@ -63,7 +63,7 @@
                     <a href="{{ route('login') }}" class="text-white hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">Log in</a>
                     <a href="{{ route('register') }}" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-800 hover:bg-gray-700">Sign Up</a>
                 @endauth
-            </div>
+            </div> --}}
             <!-- Mobile menu button -->
             <div class="-mr-2 flex items-center sm:hidden">
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-blue-700 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
