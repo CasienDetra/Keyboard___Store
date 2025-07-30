@@ -2,7 +2,7 @@
 
 This is an e-commerce project built with Laravel.
 
-##demo
+## demo
 
 https://github.com/user-attachments/assets/9e5835dc-26c7-4964-9dbd-9c99fb7296e1
 
