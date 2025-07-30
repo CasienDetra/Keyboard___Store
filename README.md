@@ -18,11 +18,10 @@ Follow these steps to set up the project locally:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/CasienDetra/Keyboard___Store.git
     cd art___e-store
     ```
 
-    _(Replace `<repository_url>` with the actual URL of your repository)_
 
 2.  **Install PHP dependencies:**
 
