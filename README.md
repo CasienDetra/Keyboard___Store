@@ -8,7 +8,6 @@ https://github.com/user-attachments/assets/9e5835dc-26c7-4964-9dbd-9c99fb7296e1
 
 ## Prerequisites
 
-
 Before you begin, ensure you have the following installed on your system:
 
 -   **PHP**: Version 8.2 or higher.
@@ -24,9 +23,8 @@ Follow these steps to set up the project locally:
 
     ```bash
     git clone https://github.com/CasienDetra/Keyboard___Store.git
-    cd art___e-store
+    cd Keyboard___Store
     ```
-
 
 2.  **Install PHP dependencies:**
 
