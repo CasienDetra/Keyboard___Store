@@ -1,5 +1,5 @@
 <div {{ $attributes->merge(['class' => 'flex justify-center items-center py-16']) }}>
-    <div class="w-full max-w-7xl mx-auto px-6 block justify-center items-center ">
+    <div class="w-full max-w-7xl mx-auto px-6 block  justify-center items-center ">
         <!-- Section Title -->
         <div class="text-center mb-12">
             <h2 class="text-3xl font-bold text-white mb-4">Trusted by Leading Brands</h2>
@@ -8,7 +8,7 @@
 
         <!-- Swiper Container -->
         <div class="swiper brand-carousel-swiper flex justify-center items-center ">
-            <div class="swiper-wrapper flex justify-center items-center  mx-auto">
+            <div class="swiper-wrapper flex justify-center items-center mx-auto">
                 <!-- Apple -->
                 <div class="swiper-slide">
                     <div class="brand-card group">
@@ -132,7 +132,7 @@
 </div>
 
 <style>
-/* Brand Carousel Styles */
+
 .brand-carousel-swiper {
     overflow: hidden;
 
@@ -166,12 +166,35 @@
     min-height: 120px;
 }
     .brand-icon {
-        @apply w-6 h-6;
+        @apply w-full h-full;
     }
     .brand-name {
         @apply text-base;
     }
+    .brand-icon-container {
+        @apply w-16 h-16;
+        
+        @apply flex justify-center items-center;
+    }
 }
+ @media (max-width: 425px) {
+        .brand-card {
+            @apply p-3 w-full;
+            min-height: 100px;
+        }
+         .brand-icon {
+            @apply w-6 h-6 text-white block mx-auto;
+        }
+        .brand-name {
+            @apply text-sm;
+        }
+        .brand-category {
+            @apply text-xs;
+        }
+         .brand-icon-container {
+            @apply border border-white w-10 h-10 rounded-full flex justify-center items-center;
+        }
+    }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
