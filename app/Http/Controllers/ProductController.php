@@ -30,8 +30,6 @@ class ProductController extends Controller
 
     public function addToCart(Request $request, Product $product)
     {
-        // This is a placeholder for cart logic.
-        // In a real application, you would use a dedicated cart service or package.
 
         // Decrease stock
         if ($product->stock > 0) {
